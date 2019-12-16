@@ -1,0 +1,7 @@
+div {
+    display: inline-block;
+    color: green;
+    border: solid darkgreen 3px;
+    border-radius: 8px;
+    padding: 1rem;
+}
