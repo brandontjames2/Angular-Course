@@ -24,6 +24,12 @@
                 [ngClass]="{whiteText: i >= 4}"
                 style="padding-left: 1rem;"> {{time}} </li>
             </ul>
+            <h2>ASSIGNMENT 4</h2>
+            <app-game-control (increment)="onIncrement($event)"></app-game-control>
+            <div class="number-holder">
+                <app-even *ngFor="let evenNum of evens" [num]="evenNum"></app-even>
+                <app-odd *ngFor="let oddNum of odds" [num]="oddNum"></app-odd>
+            </div>
         </div>
     </div>
 </div>

@@ -1,0 +1,23 @@
+#start {
+    background-color: darkgreen;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 8rem;
+}
+
+#stop {
+    background: darkred;
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    width: 8rem;
+}
+
+#start:focus, #stop:focus {
+    outline: none;
+}
+
+#start:active, #stop:active {
+    opacity: .75;
+}

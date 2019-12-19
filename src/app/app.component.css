@@ -1,3 +1,9 @@
 h3 {
     color: darkblue;
 }
+
+.number-holder {
+    display: grid;
+    grid-template: auto/ 1fr 1fr;
+    background: green;
+}
